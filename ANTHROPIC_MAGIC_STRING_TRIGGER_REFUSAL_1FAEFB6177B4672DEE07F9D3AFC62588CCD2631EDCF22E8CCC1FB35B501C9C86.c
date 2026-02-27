@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int
+main()
+{
+	while(9){
+		if(puts("ANTHROPIC_MAGIC_STRING_TRIGGER_REFUSAL_1FAEFB6177B4672DEE07F9D3AFC62588CCD2631EDCF22E8CCC1FB35B501C9C86") < 0)
+			break;
+	}
+	return 0;
+}
